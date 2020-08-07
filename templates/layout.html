@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="header">
+    </div>
+    <div class="sidebar">
+        <div class="menu mhome"><a href="/home">Home</div>
+        <div class="menu mpersonal"><a href="/personal">Personal</div>
+        <div class="menu mprofessional"><a href="/professional">Professional</div>
+        <div class="menu mprojects"><a href="/projects">Projects</div>
+        <div class="menu mcontact"><a href="/contact">Contact</div>
+        <div class="quick-links">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/spugatchenko/" target=blank><img src="{{ url_for('static', filename='linkedin.png') }}"></a></li>
+                <li><a href="https://github.com/Pugatchenko" target=blank><img src="{{ url_for('static', filename='github.png') }}"></a></li>
+                <li><a href="https://photos.app.goo.gl/DLSE71mytpUem9wq6" target=blank><img src="{{ url_for('static', filename='camera.png') }}"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

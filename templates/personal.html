@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Page</title>
+</head>
+<body>
+        {% extends 'layout.html' %}{% block content %}
+        <div class="fampic"><img src="{{ url_for('static', filename='beachfam.jpg') }}"></div>
+        {% endblock %}
+</body>
