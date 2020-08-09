@@ -1,20 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Courier New;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    margin-top: 1vw;
     margin-bottom: 1.5vw;
-    font-size: 2vw;
+    font-size: 2.25vw;
 }
 h2{
-    margin-top: 1.25vw;
-    margin-bottom: .25vw;
-    font-size: 1.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: .2vw;
+    font-size: 1.75vw;
 }
 p{
-    font-size: 1vw;
+    font-size: 1.75vw;
 }
 a{
     text-decoration: none;
@@ -34,7 +33,7 @@ a{
     position: absolute;
     margin-left: 60%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     width: 15%;
     padding: .4vw;
     text-decoration: none;
@@ -63,7 +62,7 @@ a{
     margin: 0 .25vw;
 }
 .quick-links ul li img{
-    width: 2.25vw;
+    width: 2.75vw;
     margin-right: .5vw;
 }
 .header{
@@ -79,50 +78,48 @@ a{
     background: rgb(60,60,60);
     color: rgb(60,60,60);
     top: 15%;
-    width: 13vw;
+    width: 18vw;
     height: 85%;
 }
 .container{
     position: absolute;
     top: 15%;
-    left: 13vw;
-    width: 87vw;
+    left: 18vw;
+    width: 82vw;
     height: 85%;
 }
 .menu{
     position: absolute;
     margin-left: 1vw;
     text-align: center;
-    font-size: 1.35vw;
-    width: 10vw;
+    font-size: 2vw;
+    width: 15vw;
     padding: .2vw;
     text-decoration: none;
     color: rgb(60,60,60);
     cursor: pointer;
     background: rgb(46,139,87);
 }
-.mhome{top: 1vw}
+.mhome{top: 2vw}
 
-.mpersonal{top: 4vw}
+.mpersonal{top: 6vw}
 
-.mprofessional{top: 7vw}
+.mprofessional{top: 10vw}
 
-.mprojects{top: 10vw}
+.mprojects{top: 14vw}
 
-.mcontact{top: 13vw}
+.mcontact{top: 18vw}
 
 .contact_text{
     position: absolute;
     left: 7vw;
-    top: 0;
+    top: 2vw;
 }
-.fampic{
+.famtext{
+    margin: 2vw;
+}
+.famtext img{
     float: right;
-    position: absolute;
-    top-margin: 2vw;
-    right-margin: 5vw;
-    size: 50%;
-}
-.fampic img{
-    width: 20vw;
+    width: 25vw;
+    margin-left: 2vw;
 }
