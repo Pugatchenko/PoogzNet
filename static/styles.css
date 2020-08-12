@@ -115,11 +115,42 @@ a{
     left: 7vw;
     top: 2vw;
 }
-.famtext{
+.famtext {
     margin: 2vw;
 }
 .famtext img{
     float: right;
     width: 25vw;
     margin-left: 2vw;
+}
+.protext {
+    margin: 2vw;
+}
+.protext img{
+    float: right;
+    width: 25vw;
+    margin-left: 2vw;
+}
+.resume_link{    
+    border: .15vw solid rgb(46,139,87);
+    border-image-source: linear-gradient(to bottom right, rgb(60,60,60), rgb(46,139,87));
+    border-image-slice: 1;
+    position: absolute;
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    width: 14vw;
+    padding: .4vw;
+    text-decoration: none;
+    color: rgb(46,139,87);
+    cursor: pointer;
+    background: rgb(60,60,60);
+}
+.projtext {
+    margin: 2vw;
+}
+.projtext img{
+    float: right;
+    margin-right: 20vw;
+    width: 45vw;
 }

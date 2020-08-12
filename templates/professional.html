@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Personal Page</title>
+    <title>Professional Page</title>
 </head>
 <body>
         {% extends 'layout.html' %}{% block content %}
+            <div class="protext"><img src="{{ url_for('static', filename='portrait.jpg') }}">
+                <h2>My Career</h2>
+                <p>I have over ten years of work experience in everything from being a cashier and working on classified military projects to managing real estate assets worth over a billion dollars.  I graduated from Georgetown University in 2009 and received my MBA from Georgia Tech in 2017.  I enjoy both learning and teaching and thrive in a problem-solving environment.  I am motivated by new challenges and while others may lose their cool in stressful situations I have a knack for keeping an even keel and working well in teams.  I take my work seriously but I don't take myself too seriously and pride myself on good management and leadership skills.  Please feel free to download my resume, below, or check out the projects page for some of my relevant personal and professional work.</p>
+                <div class="resume_link"><a href="{{ url_for('static', filename='2020.7_SP Resume_F.pdf') }}" target=blank>Resume PDF</div>
+            </div>
         {% endblock %}
 </body>
